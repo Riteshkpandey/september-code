@@ -1,0 +1,17 @@
+class Solution:
+    # @param A : tuple of integers
+    # @return an integer
+    def repeatedNumber(self, A):
+        d={}
+        n=len(A)
+        n=int(n/3)
+        for i in A:
+            if i not in d:
+                d[i]=1
+            else:
+                d[i]+=1
+        #print(d)
+        for k,v in d.items():
+            if d[k]>n:
+                return k
+        return -1    
