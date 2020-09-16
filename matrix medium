@@ -1,0 +1,14 @@
+class Solution:
+    # @param A : list of list of integers
+    # @return an integer
+    def findMedian(self, A):
+        n=len(A)
+        m=len(A[0])
+        b=[]
+        for i in range(n):
+            for j in range(m):
+                b.append(A[i][j])
+        k=n*m
+        k=(k+1)//2
+        b.sort()
+        return b[k-1]
