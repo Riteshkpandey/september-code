@@ -1,3 +1,23 @@
+Given a matrix of integers A of size N x M in which each row is sorted.
+
+Find an return the overall median of the matrix A.
+
+Note: No extra memory is allowed.
+
+Note: Rows are numbered from top to bottom and columns are numbered from left to right.
+
+
+
+Input Format
+
+The first and only argument given is the integer matrix A.
+Output Format
+
+Return the overall median of the matrix A.
+
+
+solution:
+
 class Solution:
     # @param A : list of list of integers
     # @return an integer
