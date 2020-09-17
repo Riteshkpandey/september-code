@@ -1,0 +1,7 @@
+from math import floor,sqrt
+class Solution:
+    # @param A : integer
+    # @return an integer
+    def sqrt(self, A):
+        return int(floor(sqrt(A)))
+        
