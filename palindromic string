@@ -1,0 +1,12 @@
+a=''
+    for character in A:
+        if character.isalnum():
+            a += character
+    a=a.lower()
+    w = ""
+    w=a[::-1]
+
+    if (a == w):
+        return 1
+    else:
+        return 0
