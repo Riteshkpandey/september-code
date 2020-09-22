@@ -1,6 +1,4 @@
 solution:
-
-
 #include<bits/stdc++.h>
 bool allocation_loose(vector<int> &A, int page_limit, int B)
 {
