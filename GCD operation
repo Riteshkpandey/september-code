@@ -8,5 +8,6 @@ for _ in range(int(input())):
             c+=1
     if c==n:
         print("YES")
+    
     else:
         print("NO")
